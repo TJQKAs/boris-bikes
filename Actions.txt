@@ -1,0 +1,3095 @@
+    1  rbenv version
+    2  date
+    3  ls
+    4  pwd
+    5  ls
+    6  pwd
+    7  cd Desktop
+    8  cd c:\Sites
+    9  LS
+   10  ls
+   11  ls -l -A
+   12  mkdir AA
+   13  rmdir AA
+   14  mkdir AA
+   15  ls
+   16  rmdir AA
+   17  ls
+   18  mkdir Somedir
+   19  cd Somedir
+   20  touch SomeFile
+   21  cd..
+   22  ls
+   23  rmdir Somedir
+   24  pwd
+   25  cd nitrous
+   26  rmdir Somedir
+   27  rm -r SomeDir
+   28  rm -r Somedir
+   29  pwd
+   30  date
+   31  PWD
+   32  pwd
+   33  ls
+   34  cd home
+   35  cd ~home
+   36  cd ~/home
+   37  ls
+   38  ls -la
+   39  ls -l -A
+   40  ls -lA
+   41  mkdir HelloWorld
+   42  cd HelloWorld
+   43  ls -lA
+   44  touch Guzzy
+   45  touch GFD
+   46  ls -lA
+   47  rm -i GFD
+   48  ls -lA
+   49  touch 99.xls
+   50  touch 1213.doc
+   51  ls -lA
+   52  cp 99.xls 222.xls
+   53  ls -Al
+   54  cd nitrous
+   55  ls
+   56  mv HelloWorld/99.xls..code/99.xls
+   57  mv --help
+   58  cd HelloWorld
+   59  mv 99.xls../code
+   60  mv 99.xls ../code
+   61  cd code
+   62  cd nitrous
+   63  cd code
+   64  ls
+   65  mv ../99.xls 120.xls
+   66  cd code mv ../99.xls 121.xls
+   67  cd code
+   68  mv ../99.xls 99.xls
+   69  mv 99.xls 120.xls
+   70  ls
+   71  touch some.txt
+   72  cd code
+   73  touch some.txt
+   74  cat some.txt
+   75  tocuh somemore.txt
+   76  touch somemore.txt
+   77  cat > somemore.txt
+   78  cat somemore.txt
+   79  cat some.txt somemore.txt > combined
+   80  cat combined
+   81  touch longtext
+   82  cat longtext
+   83  touch longtext.txt
+   84  less longtext.txt
+   85  head -3 longtext.txt
+   86  tail -3 longtext.txt
+   87  tail -f longtext.txt
+   88  man ls
+   89  curl https://dl.dropboxusercontent.com/u/23372592/Challenge_1.zip > Challenge01.zip
+   90  LS
+   91  ls
+   92  cd code
+   93  cd home
+   94  $
+   95  date
+   96  ls
+   97  pwd
+   98  cd nitrous
+   99  ls
+  100  pwd
+  101  ls -lA
+  102  LS -l -A
+  103  ls -l -A
+  104  cd code
+  105  mkdir AXXXAA
+  106  ls
+  107  cd AXXXAA
+  108  touch dzen
+  109  ls
+  110  cp dzen man
+  111  ls
+  112  mv  man ../man
+  113  ls
+  114  cd code
+  115  cd nirous
+  116  cd ..
+  117  ls
+  118  cd AXXXAA
+  119  touch molly
+  120  ls
+  121  cd code
+  122  cd
+  123  ls
+  124  cd code
+  125  cd AXXXAA
+  126  ls
+  127  mv molly../molly
+  128  mv molly ../molly
+  129  ls
+  130  cd
+  131  list
+  132  ls
+  133  cd code
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd..
+  138  cd .. ls
+  139  ls
+  140  cd
+  141  ls
+  142  pwd
+  143  cd code
+  144  ls
+  145  mv molly dolly
+  146  ls
+  147  cat sometext.txt
+  148  ls
+  149  cat longtext
+  150  ls
+  151  cat some.txt
+  152  cat > somemore.txt
+  153  cat somemore.txt
+  154  cat some.txt somemore.txt > some3.txt
+  155  cat some3.txt
+  156  less longtext
+  157  head -3 longtext
+  158  tail -f longtext
+  159  man ls
+  160  cat longtext | less
+  161  cd
+  162  ls
+  163  ls -lA
+  164  ls -lA | less
+  165  cd ~ find . -name ".txt" -print
+  166  cd
+  167  find . -name "*.txt" -print 
+  168  cd
+  169  find . -name "*.txt" -print 
+  170  cd code
+  171  find . -name "*.txt" -print 
+  172  cd 
+  173  find . -name *.txt -print > scatch.txt 
+  174  cat scatch.txt
+  175  cd
+  176  unzip Challenge01.zip
+  177  ls
+  178  cd
+  179  pwd
+  180  cd Challenge_1
+  181  mkdir New
+  182  ls
+  183  touch newFile
+  184  ls
+  185  mv newFile ../newFile
+  186  ls
+  187  cd New
+  188  cd ..
+  189  cd New
+  190  ls
+  191  cd Challenge_1
+  192  cd
+  193  cd Challenge_1
+  194  ls
+  195  cd
+  196  ls
+  197  cd New mv ../newFile newFile
+  198  cd New mv ../newFile
+  199  cd New
+  200  cd Challenge_1
+  201  cd New
+  202  cd
+  203  cd Challenge-!
+  204  cd Challenge_1
+  205  touchnewFile
+  206  touch newFile
+  207  ls
+  208  mv newFile ../newFile
+  209  cd New
+  210  mv
+  211  ls
+  212  cd .. ls
+  213  cd ..
+  214  cd New
+  215  mv ../newFile newFile
+  216  mv ../ newFile newFile
+  217  cd
+  218  ls
+  219  rm newFile
+  220  ls
+  221  cd Challenge_1
+  222  ls
+  223  touch newFile
+  224  ls
+  225  cd..
+  226  cd ..
+  227  s
+  228  ls
+  229  cd Challenge_1
+  230  ls
+  231  mv newFile .. /New
+  232  mv newFile ../ New
+  233  mv newFile ../New/newFile
+  234  mv newFile .. /newFile
+  235  ls
+  236  cd New
+  237  ls
+  238  cd
+  239  cd Challenge_1
+  240  touch newFile2
+  241  ls
+  242  mv newFile2 .. /New 
+  243  cd
+  244  cd Challenge_1
+  245  ls
+  246  mv newFile2 ../newFile2
+  247  cd New
+  248  ls
+  249  cd ..
+  250  ls
+  251  cd
+  252  ls
+  253  mv newFile2 .. /Challenge_1/New
+  254  cd Challenge_1
+  255  ls
+  256  cd New
+  257  ls
+  258  rm newFile
+  259  ls
+  260  cd ..
+  261  ls
+  262  touch newFile
+  263  ls
+  264  mv newFile .. / New
+  265  cd New
+  266  ls
+  267  pwd
+  268  cd ..
+  269  cd Text_Files
+  270  cd..
+  271  cd ..
+  272  cd Text_Files
+  273  cd .
+  274  cd ..
+  275  mkdir Foo/Bar
+  276  mkdir --help
+  277  mkdir Foo ... Bar ...
+  278  ls
+  279  cd Foo
+  280  ls
+  281  cd ..
+  282  cd Bar
+  283  ls
+  284  cd ..
+  285  rmdir Foo
+  286  rmdir Bar
+  287  ls
+  288  man ls
+  289  mkdir Foo / Bar(ies)
+  290  mkdir Foo/Bar
+  291  ls
+  292  mkdir Foo / Bar
+  293  ls
+  294  rmdir Foo Bar
+  295  ls
+  296  rmdir -p Foo Bar
+  297  mkdir -p Foo Bar
+  298  ls
+  299  cd Foo
+  300  ls
+  301  rmdir Foo Bar
+  302  cd ..
+  303  rmdir Foo Bar
+  304  ls
+  305  mkdir [Foo]... Bar...
+  306  ls
+  307  cd [Foo]
+  308  rmdir [Foo]... Bar...
+  309  ls
+  310  mkdir --help
+  311  rmdir [Foo] / [Bar]
+  312  mkdir -p[Foo]/[Bar]
+  313  ls
+  314  mkdir -p [Foo]/[Bar]
+  315  ls
+  316  cd [Foo]
+  317  ls
+  318  cd ..
+  319  rmdir -r [Foo]
+  320  rm -r [Foo]
+  321  ls
+  322  mkdir -p Foo/Bar
+  323  ls
+  324  cd Foo
+  325  ls
+  326  pwd
+  327  cd Bar
+  328  pwd
+  329  cd ..
+  330  cd Challenge_1
+  331  ls
+  332  ls -lA
+  333  rm Empty_Folder
+  334  rm -r Empty_Folder
+  335  ls
+  336  rm -r New
+  337  ls
+  338  cd Tex_Files
+  339  cd Text_Files
+  340  ls -Al
+  341  ls --help
+  342  ls -Al
+  343  ВФЕУ
+  344  date
+  345  pwd
+  346  ls -Al
+  347  date
+  348  cd Challenge_1
+  349  ls -Al
+  350  cd Text_Files
+  351  ls -Al
+  352  cp More_Text.txt
+  353  mv More_Text Learn_to_code
+  354  ls
+  355  cp More_Text Learn_to_code.txt
+  356  ls
+  357  la
+  358  ls
+  359  cp More_Text Learn_to_code
+  360  la
+  361  ls
+  362  cp More_Text.txt 
+  363  cp More_Text.txt New.txt
+  364  ls
+  365  cp --help
+  366  cp More_Text.txt Learn_to_code.txt
+  367  la
+  368  head -5 Learn_to_code.txt
+  369  tail -5 More_Text.txt
+  370  cat Learn_to_code.txt
+  371  less Learn_to_code.txt
+  372  tail --help
+  373  cat Learn_to_code.txt | grep a
+  374  clear
+  375  pwd
+  376  cat Learn_to_code.txt | grep a
+  377  ls -a
+  378  ls -la
+  379  touch blank
+  380  ls -la
+  381  clear
+  382  ls -la
+  383  ls -la | grep *.txt
+  384  find . -name "*.txt" -print
+  385  clear
+  386  ls -la
+  387  find . -name ".txt" -print
+  388  ls -la
+  389  clear
+  390  ls -la
+  391  find . -name "*.txt" -print
+  392  find ~ -name "*" -print | grep "\d+"
+  393  find . -name "*" -print | grep "\d+"
+  394  wc Learn_to_code.txt
+  395  wc --help
+  396  wc -w Learn_to_code.txt 
+  397  wc -l Learn_to_code.txt
+  398  clear
+  399  wc -l Learn_to_code.txt
+  400  clear
+  401  wc -l Learn_to_code.txt
+  402  wc -w Less_Text.txt
+  403  hostname
+  404  wc --help
+  405  whatis wc
+  406  pwd -print | wc -l
+  407  wc *.txt
+  408  wc -l *.txt
+  409  ls -la | grep *.txt
+  410  ls -la *txt
+  411  ls -la
+  412  ls -la | grep *.txt
+  413  grep *.txt
+  414  ls -la > gab
+  415  ls -la
+  416  cat gab
+  417  ls -la > gbb | greb *.txt | wc gbb
+  418  cat gbb
+  419  greb *txt
+  420  greb .txt gbb
+  421  clear
+  422  rm -r gbb 
+  423  rm -r gab
+  424  ls -la
+  425  ls -la *txt
+  426  ls -la *txt > gab | wc -l gab
+  427  cat gab
+  428  wc -l gab
+  429  find . -name
+  430  find -name "*.txt"
+  431  find -name "*.txt" | greb txt
+  432  find -name "*.txt" | grep txt
+  433  find -name
+  434  find -name "*.*"
+  435  find -name "*.*" | grep txt | wc -l
+  436  clear
+  437  touch blank
+  438  ls-la
+  439  ls -lla
+  440  clear
+  441  ls -la
+  442  find -name "*.*" | grep txt | wc -l 
+  443  cd ..
+  444  cd,,
+  445  cd ..
+  446  find -name "b*.*"
+  447  clear
+  448  pwd
+  449  find -name "b*.*"
+  450  whoami
+  451  wc --help
+  452  date
+  453  pwd
+  454  ls -la
+  455  whoami
+  456  ls -l
+  457  cd challenge_1
+  458  cd Challenge_1
+  459  cat hello.rb
+  460  touch hello.rb
+  461  cat hello.rb
+  462  ls -la
+  463  cat > hello.rb
+  464  cat hello.rb
+  465  ruby hello.rb
+  466  irb
+  467  ./hello.rb
+  468  chmod u+x hello.rb
+  469  ./hello.rb
+  470  cd ..
+  471  ➜  ~
+  472  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  473  ln -s  "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+  474  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  475  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/linuxbrew/go/install)"
+  476  subl .
+  477  ln -s  "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+  478  brew doctor
+  479  run brew doctor
+  480  ls
+  481  ls -la
+  482  brew update
+  483  brew doctor
+  484  ruby -v
+  485  which irb
+  486  env
+  487  echo $HOME
+  488  $  echo "Hi"
+  489  echo $HOMEhi
+  490  echo "Hi everuone"
+  491  cd code
+  492  echo "Hi everyone" > helli.txt
+  493  ls -la
+  494  cat helli.txt
+  495  echo $PATH
+  496  export SEASON = winter
+  497  export SEASON=winter
+  498  echo $SEASON
+  499  PWD
+  500  pwd
+  501  export=$PATH:/home/nitrous/code1
+  502  cd
+  503  pwd
+  504  ls -la
+  505  export PATH=$PATH:/home/nitrous/dfd
+  506  ls -la
+  507  export SECRET_KET=12345acbde
+  508  ruby
+  509  secret_key = ENV["SECRET_KEY"]
+  510  cd code
+  511  touch hi.rb
+  512  cat hi.rb >
+  513  cat > hi.rb
+  514  cat hi.rb
+  515  ruby hi.rb
+  516  cd
+  517  echo $SEASON
+  518  echo "export SEASON=winter" >> ~/.bash_profile
+  519  echo $SEASON
+  520  ENV
+  521  env
+  522  echo "export SEASON=winter" >> ~/.bash_profile
+  523  env
+  524  echo "export SEASON=winter" >> ~/.bash_profile
+  525  env
+  526  rvm
+  527  RVM
+  528  bash
+  529  env
+  530  cat .bash_profile
+  531  ps
+  532  ps x
+  533  ps x| grep bash
+  534  ps x | grep bash
+  535  ps x
+  536  ps x | grep bash
+  537  ➜  ~  env
+  538  USER=nitrous
+  539  LOGNAME=nitrous
+  540  HOME=/home/nitrous
+  541  PATH=/home/nitrous/bin:/usr/local/bin:.bundle/binstubs:/usr/local/opt/rbenv/shim                s:/usr/local/opt/rbenv/bin:/usr/local/opt/nvm/versions/node/v0.12.5/bin:/usr/loc                al/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+  542  MAIL=/var/mail/nitrous
+  543  SHELL=/bin/zsh
+  544  SSH_CLIENT=37.204.82.2 49227 22
+  545  SSH_CONNECTION=37.204.82.2 49227 172.17.0.1 22
+  546  SSH_TTY=/dev/pts/3
+  547  TERM=xterm-256color
+  548  LANG=en_US.UTF-8
+  549  SHLVL=1
+  550  PWD=/home/nitrous
+  551  OLDPWD=/home/nitrous
+  552  NVM_DIR=/usr/local/opt/nvm
+  553  NVM_NODEJS_ORG_MIRROR=https://nodejs.org/dist
+  554  NVM_IOJS_ORG_MIRROR=https://iojs.org/dist
+  555  NVM_IOJS_ORG_VERSION_LISTING=https://iojs.org/dist/index.tab
+  556  MANPATH=/usr/local/opt/nvm/versions/node/v0.12.5/share/man:/usr/local/man:/usr/l                ocal/share/man:/usr/share/man
+  557  NVM_PATH=/usr/local/opt/nvm/versions/node/v0.12.5/lib/node
+  558  NVM_BIN=/usr/local/opt/nvm/versions/node/v0.12.5/bin
+  559  RBENV_ROOT=/usr/local/opt/rbenv
+  560  RBENV_SHELL=zsh
+  561  ZSH=/home/nitrous/.oh-my-zsh
+  562  PAGER=less
+  563  LESS=-R
+  564  LC_CTYPE=en_US.UTF-8
+  565  LSCOLORS=Gxfxcxdxbxegedabagacad
+  566  _=/usr/bin/env
+  567  ➜  ~  cat .bash_profile
+  568  export SEASON=winter
+  569  ➜  ~  ps
+  570  ➜  ~  ps x
+  571  ➜  ~  ps x| grep bash
+  572  ➜  ~  ps x | grep bash
+  573  ➜  ~  ps x
+  574  ➜  ~  ps x | grep bash
+  575  ➜  ~
+  576  ➜  ~  env
+  577  USER=nitrous
+  578  LOGNAME=nitrous
+  579  HOME=/home/nitrous
+  580  PATH=/home/nitrous/bin:/usr/local/bin:.bundle/binstubs:/usr/local/opt/rbenv/shim                s:/usr/local/opt/rbenv/bin:/usr/local/opt/nvm/versions/node/v0.12.5/bin:/usr/loc                al/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+  581  MAIL=/var/mail/nitrous
+  582  SHELL=/bin/zsh
+  583  SSH_CLIENT=37.204.82.2 49227 22
+  584  SSH_CONNECTION=37.204.82.2 49227 172.17.0.1 22
+  585  SSH_TTY=/dev/pts/3
+  586  TERM=xterm-256color
+  587  LANG=en_US.UTF-8
+  588  SHLVL=1
+  589  PWD=/home/nitrous
+  590  OLDPWD=/home/nitrous
+  591  NVM_DIR=/usr/local/opt/nvm
+  592  NVM_NODEJS_ORG_MIRROR=https://nodejs.org/dist
+  593  NVM_IOJS_ORG_MIRROR=https://iojs.org/dist
+  594  NVM_IOJS_ORG_VERSION_LISTING=https://iojs.org/dist/index.tab
+  595  MANPATH=/usr/local/opt/nvm/versions/node/v0.12.5/share/man:/usr/local/man:/usr/l                ocal/share/man:/usr/share/man
+  596  NVM_PATH=/usr/local/opt/nvm/versions/node/v0.12.5/lib/node
+  597  NVM_BIN=/usr/local/opt/nvm/versions/node/v0.12.5/bin
+  598  RBENV_ROOT=/usr/local/opt/rbenv
+  599  RBENV_SHELL=zsh
+  600  ZSH=/home/nitrous/.oh-my-zsh
+  601  PAGER=less
+  602  LESS=-R
+  603  LC_CTYPE=en_US.UTF-8
+  604  LSCOLORS=Gxfxcxdxbxegedabagacad
+  605  _=/usr/bin/env
+  606  ➜  ~  cat .bash_profile
+  607  export SEASON=winter
+  608  ➜  ~  ps
+  609  ➜  ~  ps x
+  610  ➜  ~  ps x| grep bash
+  611  ➜  ~  ps x | grep bash
+  612  ➜  ~  ps x
+  613  ➜  ~  ps x | grep bash
+  614  ➜  ~
+  615  ps x | grep bash
+  616  vi myFile
+  617  ls -la
+  618  mkdir 
+  619  mkdir temp
+  620  cd temp
+  621  mkdir my/private
+  622  ls
+  623  mkdir -p my/private
+  624  la
+  625  ls -la
+  626  mkdir -p my/public
+  627  ls -la
+  628  cd my
+  629  ls -la
+  630  cd private
+  631  touch t-vars.env
+  632  ls -la
+  633  cat > t-vars.env
+  634  cat t-vars.env
+  635  history
+  636  date
+  637  env
+  638  env | grep T*.*
+  639  env | find -namew "T*.* -print\n\nq\nexit\n
+  640  env
+  641  env | find. -name *.*
+  642  env | find -name "*.*"
+  643  env T*
+  644  env T
+  645  env
+  646  env | grep T*
+  647  env | find T* -print
+  648  env | -name
+  649  env | name
+  650  find env
+  651  env
+  652  zsh
+  653  env
+  654  export TESTING_MAKERS=working
+  655  env
+  656  zsh
+  657  cat .bash_profile
+  658  export TESTING_MAKERS=working >> ~/.bash_profile 
+  659  env
+  660  ls -ls
+  661  ls -la
+  662  cat .profile
+  663  pwd
+  664  ls -la
+  665  echo "export SEASON=winter" >> ~/.bashrc
+  666  cat .bashrc
+  667  env
+  668  cd my
+  669  ls -la
+  670  env | grep ^T | wc -l > t-vars.count
+  671  cat t-vars.env
+  672  env | grep ^T | wc -l > t-vars.env
+  673  cat t-cars.env
+  674  cat t-vars.env
+  675  ls -la
+  676  cat t-vars.count
+  677  ls -env
+  678  env
+  679  date
+  680  ls -al
+  681  rm -r temp
+  682  ls -la
+  683  mkdir temp
+  684  ls -la
+  685  cd temp
+  686  gem install unixoid-challenge
+  687  unixoid-challenge
+  688  pwd
+  689  date
+  690  mkdir -p my/private/files
+  691  mkdir -p my/public/files
+  692  cd my
+  693  cd privates
+  694  cd pivate
+  695  cd private
+  696  cd files
+  697  touch t-vars.env
+  698  pwd
+  699  ls -la
+  700  unixoid-challenge
+  701  date
+  702  mkdir
+  703  reset
+  704  date
+  705  mkdir temp
+  706  cd temp
+  707  gem install unixoid-challenge
+  708  mkdir -p my/private/files
+  709  mkdir -p my/public/files
+  710  ls -ls
+  711  cd my
+  712  cd private
+  713  cd files
+  714  touch t-vars.env
+  715  ls -la
+  716  unixoid-challenge
+  717  1
+  718  2
+  719  1
+  720  2
+  721  3
+  722  1
+  723  cd
+  724  pwd
+  725  ls -la
+  726  cd temp
+  727  rm -r my
+  728  ls 
+  729  rm -r my
+  730  unixoid-challenge
+  731  cd temp
+  732  ls
+  733  2
+  734  3
+  735  cd ..
+  736  2
+  737  ls -la
+  738  cd temp
+  739  pwd
+  740  cd ..
+  741  mkdir -p public/files
+  742  ls my
+  743  cd ..
+  744  ls -la
+  745  cd my
+  746  ls -la
+  747  cd private
+  748  ls -la
+  749  cd files
+  750  ls -la
+  751  cd ..
+  752  cd my
+  753  cd public
+  754  ls -la
+  755  unixoid-challenge
+  756  mkdir -p my/privare/files
+  757  1
+  758  mkdir -p my/private/files
+  759  unixoid-challenge
+  760  cd ..
+  761  mkdir -p my/public/files
+  762  unixoid-challenge
+  763  cd my
+  764  cd private
+  765  cd files
+  766  touch t-vars.env
+  767  unixoid-challenge
+  768  1
+  769  2
+  770  3
+  771  4
+  772  hisory
+  773  history
+  774  unixoid-challenge
+  775  pwd
+  776  cd ..
+  777  mkdir -p my/public/files
+  778  unixoid-challenge
+  779  cd my
+  780  cd private
+  781  cd files
+  782  cat > t-vars.env
+  783  unixoid-challenge
+  784  ls
+  785  cd temp
+  786  unixoid-challenge
+  787  pwd
+  788  ls --help
+  789  env --help
+  790  cd private
+  791  cdmy
+  792  cd my
+  793  cd private
+  794  cd files
+  795  ls -la
+  796  chmod g-rwx t-vars.env
+  797  chmod o-rwx t-vars.env
+  798  unixoid-challenge
+  799  unixoid_challnge
+  800  unixoid_challenge
+  801  unixoid-challenge
+  802  cd
+  803  cd temp
+  804  unixoid-challenge
+  805  cd my
+  806  cd ..
+  807  li -la
+  808  ls -la
+  809  cd my
+  810  cd public
+  811  cd ..
+  812  cd private
+  813  ls -la
+  814  chmod o-rwx files
+  815  chmod g-rwx files
+  816  ls -la
+  817  cd ..
+  818  unixoid-challenge
+  819  cd
+  820  la -la
+  821  cd oh-my-zsh
+  822  cd .oh-my-zsh
+  823  ls -la
+  824  cd
+  825  cd temp
+  826  echo "export TESTING_MAKERS=working" >> /.bash_profile
+  827  env
+  828  cd
+  829  echo "export TESTING_MAKERS=working" >> ~/.bash_profile
+  830  env
+  831  cat .bash_profile
+  832  cat > .bash_profile
+  833  cd temp
+  834  ls -la
+  835  env
+  836  export TESTING=working
+  837  env
+  838  cd my
+  839  public
+  840  cd files
+  841  touch t-vars.count
+  842  (env | grep ^T | wc -l) > t-wars.count
+  843  (env | grep ^T | wc -l) > t-vars.count
+  844  ls 
+  845  cat t-vars.count
+  846  cd ..
+  847  onixoid-challenge
+  848  unixoid-chfllenge
+  849  unixoid-challenge
+  850  8
+  851  cd ..
+  852  unixoid-challenge
+  853  env
+  854  (env | grep ^T | wc -l) > t-vars.count
+  855  env | grep ^T 
+  856  unixoid-challenge
+  857  cd my
+  858  cd privare
+  859  cd private
+  860  cd files
+  861  ls -la
+  862  cat t-vars.env
+  863  date
+  864  pwd
+  865  cd temp
+  866  cd my
+  867  cd private
+  868  cd files
+  869  ls -la
+  870  cat t-vars.env
+  871  env
+  872  ( env | grep ^T ) > t-vars.env
+  873  cat t-vars.env
+  874  cat > t-vars.env
+  875  unixoid-challenge
+  876  cd ..
+  877  unixoid-challenge
+  878  env | grep ^T
+  879  cd my
+  880  cd private
+  881  cd files
+  882  ls -la
+  883  cat t-vars.env (env | grep ^T ) > combined
+  884  cat t-vars.env
+  885  cd ..
+  886  cd public
+  887  ls -la
+  888  cd files
+  889  ls -la
+  890  chmod a+rw t-vars.count
+  891  ls -la
+  892  cd ..
+  893  unixoid-challenge
+  894  env --help
+  895  pwd
+  896  ls -la
+  897  cat .zshrc
+  898  cd 
+  899  export TESTING_MAKERS=working >> ~ /.zshrc
+  900  cd .zshrc
+  901  ls -la
+  902  cat .zshrc
+  903  cat .bash_profile
+  904  env | sort | head -3 > first-three-env.txt
+  905  cd la
+  906  ls -la
+  907  cat first-three-env.txt
+  908  cd .. temp
+  909  cd temp
+  910  cd my
+  911  cd public
+  912  cd ..
+  913  cd private
+  914  ls -la
+  915  cd files
+  916  ls -la
+  917  (env | sort | head -3 ) > first-three-env.txt
+  918  ls -la
+  919  unixoid-challenge
+  920  cd ..
+  921  unixoid-challenge
+  922  history
+  923  cd my
+  924  cd private
+  925  cd files
+  926  history > commands.txt
+  927  ls -la
+  928  cat commands.txt
+  929  cd ..
+  930  unixoid-challenge
+  931  cd my
+  932  cd private
+  933  cd files
+  934  cd ..
+  935  cd public
+  936  cd files
+  937  ls -la
+  938  echo "Overall count : (env | grep ^T | wc -l)" > t-vars.count
+  939  cat t-vars.count
+  940  echo "Overall count:$(env | grep ^T | wc -l)" > t-vars.count
+  941  cat t-vars.count
+  942  cd ..
+  943  unixoid-challenge
+  944  export TESTING_MAKERS=working
+  945  env
+  946  export TESTING_MAKERS1=notworking
+  947  env
+  948  export TELLMYBABY=goddbuy
+  949  env
+  950  export TEDD=word
+  951  env
+  952  cd my
+  953  cd public
+  954  cd files
+  955  ls -la
+  956  echo "Overall:$(env | grep ^T | wc -l)" > t-vars.count
+  957  cat t-vars.count
+  958  unixoid-challenge
+  959  cd ..
+  960  unixoid-challenge
+  961  cd my
+  962  cd private
+  963  cd files
+  964  ls -la
+  965  env | grep ^T
+  966  cd code
+  967  touch youg
+  968  ls -la
+  969  touch aaa.txt
+  970  ls -la
+  971  cat > aaa.txt
+  972  cat aaa.txt
+  973  env
+  974  env | grep ^T
+  975  $(env | grep ^T) >> aaa.txt
+  976  cat aaa.txt
+  977  (env | grep ^T) >> aaa.txt
+  978  cat aaa.txt
+  979  (env | grep ^T) >> t-vars.env
+  980  cat t-vars.env
+  981  cd ..
+  982  unixoid-challenge
+  983  date
+  984  env
+  985  export TENMASY=hull >> ~ zsh
+  986  cd zsh
+  987  ls -la
+  988  cd
+  989  ls -la
+  990  cat .gem
+  991  cat bash_profile
+  992  cat .bash_profile
+  993  export TEAM=working >> .bash_profile
+  994  env
+  995  cat .oh-my-zsh
+  996  ls -la
+  997  cd .oh-my-zsh
+  998  ls -la
+  999  cat oh-my-zsh.sh
+ 1000  ls -la
+ 1001  cd log
+ 1002  ls -la
+ 1003  cd ..
+ 1004  cd temp
+ 1005  unixoid-challenge
+ 1006  cd my
+ 1007  cd public
+ 1008  cd files
+ 1009  ls -la
+ 1010  cat t-vars.count
+ 1011  cd
+ 1012  ls -la
+ 1013  cd zsh / bash / iterm2
+ 1014  cd zsh
+ 1015  cat zsh_history
+ 1016  cat .zsh_history
+ 1017  ls -la
+ 1018  cat .profile
+ 1019  cat .bash_profile
+ 1020  cat ~/ .bash_profile
+ 1021  cat .hushlogin
+ 1022  cat gitconfig
+ 1023  cat .gitconfig
+ 1024  cat .tmux.conf
+ 1025  cat .gemrc
+ 1026  cat .bashlogout
+ 1027  cat .bash_logout
+ 1028  env
+ 1029  ls -la
+ 1030  cd .oh-my-zsh
+ 1031  ls -la
+ 1032  cd log
+ 1033  ls -la
+ 1034  cat .easter-egg
+ 1035  cd ..
+ 1036  cd custom
+ 1037  ls -la
+ 1038  cat example.zsh
+ 1039  cd .. 
+ 1040  cd templates
+ 1041  ls -la
+ 1042  cat zshrc.zsh-template
+ 1043  env
+ 1044  cat ~ / .profile
+ 1045  ls -la
+ 1046  echo "export TESTING_MAKERS=WORKING" >> ~ / .bash_profile
+ 1047  cat .bash_profile
+ 1048  cd .bash_profile
+ 1049  rvm
+ 1050  cd .bash_profile
+ 1051  ls -la
+ 1052  cat .bash_profile
+ 1053  export TEDS=general >> .bash_profile
+ 1054  cat .bash_profile
+ 1055  .bash_profile > 
+ 1056  cat > .bash_profile
+ 1057  cat .bash_profile
+ 1058  env
+ 1059  cat .bash_profile
+ 1060  env
+ 1061  ls -la
+ 1062  cat .git_config
+ 1063  cat .gitconfig
+ 1064  cat gemrc
+ 1065  cat .gemrc
+ 1066  cat .bashrc
+ 1067  env
+ 1068  cat .profile
+ 1069  cat >> .profile
+ 1070  env
+ 1071  cat .profile
+ 1072  env
+ 1073  cat ~ / .oh-my-zsh
+ 1074  ls -la
+ 1075  cat .zshrc
+ 1076  ls -la
+ 1077  cat ~ /.zsh
+ 1078  cat ~ / .zsh
+ 1079  cd .
+ 1080  cd ..
+ 1081  ls -la
+ 1082  cd ..
+ 1083  ls -la
+ 1084  cd ..
+ 1085  ls -la
+ 1086  cd bin
+ 1087  ls-la
+ 1088  ls -la
+ 1089  env
+ 1090  ls -la
+ 1091  cd bash
+ 1092  cat bash
+ 1093  pwd
+ 1094  cd ..
+ 1095  ls -la
+ 1096  env
+ 1097  cd bin
+ 1098  ls -la
+ 1099  cat zsh
+ 1100  ls -la
+ 1101  cd ..
+ 1102  ls -la
+ 1103  cd etc
+ 1104  ls -la
+ 1105  cd zsh
+ 1106  ls -la
+ 1107  cat zlogin
+ 1108  cat zprofile
+ 1109  date
+ 1110  pwd
+ 1111  echo "export TESTING_MAKERS=working" >> ~ / .bash_profile
+ 1112  ls -la
+ 1113  cat .bash_profile
+ 1114  echo "export TESTING_MAKERS" >> .bash_profile
+ 1115  cat .bash_profile
+ 1116  env
+ 1117  echo "export TESTING_MAKERS=working" >> .bash_profile
+ 1118  env
+ 1119  wc --help
+ 1120  cd temp
+ 1121  cd my
+ 1122  cd public
+ 1123  cd files
+ 1124  ls -la
+ 1125  cd 
+ 1126  cd code
+ 1127  touch hhh.txt
+ 1128  touch bb.txt
+ 1129  ls -la
+ 1130  wc -l
+ 1131  find -name "*.txt"
+ 1132  (find -name "*.txt" | wc -l ) > tyt.txt
+ 1133  ls -la
+ 1134  cat tyt.txt
+ 1135  (find -name "*.txt" | wc -l ) > text-files-count.txt
+ 1136  cat text-files-count.txt
+ 1137  unixoid-challenge
+ 1138  cd ..
+ 1139  unixoid_challenge
+ 1140  unixoid-challenge
+ 1141  env
+ 1142  cd temp
+ 1143  cd my
+ 1144  cd public
+ 1145  cd files
+ 1146  ls -la
+ 1147  pwd
+ 1148  cd code
+ 1149  ls -la
+ 1150  find ~ /home/nitrous/ -name "*.txt"
+ 1151  find ~ /home/nitrous/ -name "*.txt" | wc -l
+ 1152  (find ~ /home/nitrous/ -name "*.txt" | wc -l ) > text-files-count.txt 
+ 1153  cat text-files-count.txt
+ 1154  cd ..
+ 1155  unixoid-challenge
+ 1156  cd ..
+ 1157  cd temp
+ 1158  date
+ 1159  pwd
+ 1160  cd my
+ 1161  cd temp
+ 1162  cd my
+ 1163  echo "export TESTING_MAKERS=working" >> ~/.bash_profile
+ 1164  env
+ 1165  echo "export TESTING_MAKERS=working" >> ~/.bash_profile
+ 1166  date
+ 1167  env
+ 1168  cd ..
+ 1169  ls =la
+ 1170  ls -la
+ 1171  cd nitrous
+ 1172  ls -la
+ 1173  cat .bash_profile
+ 1174  cd temp
+ 1175  unixoid-challenge
+ 1176  echo "export $TESTING_MAKERS=working" >> ~/.bash_profile
+ 1177  env
+ 1178  $echo "export TESTING_MAKERS=working" >> ~/.bash_profile
+ 1179  echo "$export TESTING_MAKERS=working" >> ~/.bash_profile
+ 1180  env
+ 1181  echo "export $TESTING_MAKERS=working" >> ~/.bash_profile
+ 1182  env
+ 1183  cat .bash_profile
+ 1184  echo $TESTING_MAKERS=working
+ 1185  env
+ 1186  export $TESTING_MAKERS=working
+ 1187  export TESTING_MAKERS=working
+ 1188  env
+ 1189  echo "export TESTING_MAKERS=working" >> ~/.bash_profile
+ 1190  env
+ 1191  cat .bash_profile
+ 1192  ENV
+ 1193  env
+ 1194  set TESTING_MAKERS=working
+ 1195  env
+ 1196  cat ~/.zshrc 
+ 1197  echo "export TESTING_MAKERS=working" >> ~/.zshrc
+ 1198  env
+ 1199  source ~/.zshrc
+ 1200  env
+ 1201  source ~/ .bash_profile
+ 1202  env
+ 1203  cd temp
+ 1204  unixoid-challenge
+ 1205  source ~/.zshrc
+ 1206  env
+ 1207  source /.zshrc
+ 1208  source ~ /.zshrc
+ 1209  env
+ 1210  cd temp
+ 1211  unixoid-challenge
+ 1212  source ~/.zshrc
+ 1213  env
+ 1214  echo "export TESTING_PEOPLE=breathing" >> ~ /.zsrhc
+ 1215  echo "export TESTING_PEOPLE=breathing" >> ~/.zsrhc
+ 1216  env
+ 1217  source ~/.zshrc
+ 1218  env
+ 1219  source ~/.zshrc
+ 1220  env
+ 1221  echo "export TESTING_PEOPLE=high" >> ~/.zshrc
+ 1222  env
+ 1223  source ~/.zshrc
+ 1224  env
+ 1225  echo "export TEAM=anywhere" >> ~/.zshrc
+ 1226  env
+ 1227  source ~/.zshrc
+ 1228  env
+ 1229  source ~/.zshrc
+ 1230  env
+ 1231  cd temp
+ 1232  cd my
+ 1233  cd public
+ 1234  cd files
+ 1235  ls -la
+ 1236  (env | grep ^T | wc -l) > t-vars.count 
+ 1237  cat t-vars.count
+ 1238  (env | grep ^T | wc -l) > t-vars.count 
+ 1239  echo "export TEST_W=notworking" >> ~/.zshrc
+ 1240  env
+ 1241  source /.zshrc
+ 1242  source ~/.zshrc
+ 1243  env
+ 1244  cd temp
+ 1245  cd my
+ 1246  cd public
+ 1247  cd files
+ 1248  (env | grep ^T | wc -l) > t-vars.count 
+ 1249  cat t-var.count
+ 1250  cat t-vars.count
+ 1251  cd ..
+ 1252  unixoid-challenge
+ 1253  cd my
+ 1254  cd public
+ 1255  cd files
+ 1256  ls -la
+ 1257  echo "Overall count: $(env | grep ^T | wc -l)" > t-vars.count 
+ 1258  cat t-vars.count
+ 1259  cd ..
+ 1260  unixoid-challenge
+ 1261  date
+ 1262  cd my 
+ 1263  cd private
+ 1264  cd files
+ 1265  ls -la
+ 1266  history > commands.txt
+ 1267  cat commands.txt
+ 1268  cd 
+ 1269  pwd
+ 1270  cd Challenge_1
+ 1271  less Learn_to_code.txt
+ 1272  la -la
+ 1273  cd Text_Files
+ 1274  ls -la
+ 1275  less Learn_to_code.txt
+ 1276  source ~/.zshrc
+ 1277  env
+ 1278  DAY=date
+ 1279  $echo DAY
+ 1280  env
+ 1281  export DAY=date
+ 1282  echo $DAY
+ 1283  cd ..
+ 1284  cd Text_Files
+ 1285  la -la
+ 1286  chmod g+w More_Text.txt
+ 1287  ls -la
+ 1288  chmod o-r More_Text.txt
+ 1289  la -la
+ 1290  chmod u-w More_Text.txt
+ 1291  la -la
+ 1292  ls -la
+ 1293  echo "hello world" 
+ 1294  cd ..
+ 1295  ls -la
+ 1296  ruby hello.rb
+ 1297  irb
+ 1298  ./hello.rb
+ 1299  chmod u+x hello.rb
+ 1300  ls -la
+ 1301  ./hello.rb
+ 1302  $which ruby
+ 1303  hello.rb
+ 1304  env
+ 1305  cd..
+ 1306  cd ..
+ 1307  ls -la
+ 1308  cd ..
+ 1309  cd nitorus
+ 1310  cd nitrous
+ 1311  la -la
+ 1312  cd ..
+ 1313  cd home
+ 1314  la -la
+ 1315  cd nitrous
+ 1316  ls -la
+ 1317  irb
+ 1318  ls -la
+ 1319  cd .zcompdump-ruby-118143-5.0.2
+ 1320  pwd
+ 1321  ls -la
+ 1322  cat .zshrc
+ 1323  ls -la
+ 1324  cd Challenge
+ 1325  cd Challenge_1
+ 1326  la -la
+ 1327  cat >> hello.rb 
+ 1328  cat > hello.rb
+ 1329  cat hello.rb
+ 1330  hello.rb
+ 1331  env ruby
+ 1332  hello.rb
+ 1333  cat hello.rb
+ 1334  cat > hello.rb
+ 1335  cat hello.rb
+ 1336  $ ./hello.rb
+ 1337  ./hello.rb
+ 1338  whcih irb
+ 1339  which irb
+ 1340  cat > hello.rb
+ 1341  hello.rb
+ 1342  ./hello.rb
+ 1343  ls -la
+ 1344  ps x
+ 1345  ps google
+ 1346  ps --help
+ 1347  ps --help | grep bash
+ 1348  ps x | grep bash 
+ 1349  ps x
+ 1350  ps 
+ 1351  ps google chrome
+ 1352  ps --help <s|l|o|t|m|a>
+ 1353  all
+ 1354  ps
+ 1355  ps x
+ 1356  ps x ~
+ 1357  ~ ps x
+ 1358  ps x
+ 1359  man
+ 1360  man ls
+ 1361  ps a
+ 1362  ps la
+ 1363  ps -la
+ 1364  ps a
+ 1365  ps l
+ 1366  ps x la
+ 1367  ls amn
+ 1368  ls man
+ 1369  man ls
+ 1370  ps 
+ 1371  ps x
+ 1372  www.google.com
+ 1373  ps x
+ 1374  ps lx
+ 1375  ps x ~
+ 1376  ps x 
+ 1377  ps chrome.exe
+ 1378  ps chrome
+ 1379  git --version
+ 1380  pwd
+ 1381  date
+ 1382  git
+ 1383  git help -g
+ 1384  git --version
+ 1385  git config --global user.name "eugene2015"
+ 1386  git config --global user.email "a26052013@gmail.com"
+ 1387  git config --global core.autocrlf input
+ 1388  git config --global core.safecrlf true
+ 1389  mkdir gitDir
+ 1390  cd gitDir
+ 1391  echo "Git is Awesome" > gitText
+ 1392  git init
+ 1393  git add gitText
+ 1394  git commit -m "First commit"
+ 1395  git commit -m "About to start preparing for heist"
+ 1396  git commit -m "Ready for the hiest"
+ 1397  git status
+ 1398  modified: git Text
+ 1399  modified: gitText
+ 1400  git add gitText
+ 1401  git status
+ 1402  modified : gitText
+ 1403  modified gitText
+ 1404  modify gitText
+ 1405  git log
+ 1406  rm gitText
+ 1407  touch moreGitText
+ 1408  git status
+ 1409  git add moreGitText
+ 1410  git status
+ 1411  rm moreGitText
+ 1412  ls -ls
+ 1413  ls -la
+ 1414  rm -rf .git
+ 1415  pwd
+ 1416  cd ..
+ 1417  ls -la
+ 1418  cd code
+ 1419  mkdir gitDir
+ 1420  ls -la
+ 1421  cd echo "Git is Awesome" > gitText
+ 1422  cd gitDir
+ 1423  echo "Git is Awesome" > gitText
+ 1424  git status
+ 1425  git init
+ 1426  git add gitText
+ 1427  git commit -m "first commit"
+ 1428  git status
+ 1429  git log
+ 1430  rm gitText
+ 1431  touch moreGitText
+ 1432  git status
+ 1433  git add moreGitText
+ 1434  git status
+ 1435  git add newFile
+ 1436  touch newFile
+ 1437  git add newFile
+ 1438  rm newFile
+ 1439  git rm newFile
+ 1440  git rm gitText
+ 1441  git commit -m "deleted gitText"
+ 1442  git status
+ 1443  git log
+ 1444  git checkout 0c340d48c74bf8214af5f9debc9fb64a1e70dcec
+ 1445  ls -la
+ 1446  git log
+ 1447  git checkout 1a8fabc5067aa458bc9f9aedc9a21db182c1e6a2
+ 1448  git commit -m "deleted gitText"
+ 1449  echo "Git is Awesome" > gitText
+ 1450  ls -la
+ 1451  git status
+ 1452  git add GitText
+ 1453  git add gitText
+ 1454  git init
+ 1455  git status
+ 1456  git commit -m 
+ 1457  git commit -m "Updated gitText"
+ 1458  git add gitText
+ 1459  git log
+ 1460  rm gitText
+ 1461  touch moreGitText
+ 1462  git status
+ 1463  git add moreGitText
+ 1464  git status
+ 1465  git rm gitText
+ 1466  git commit -m "deleted gitText"
+ 1467  git status
+ 1468  git log
+ 1469  git checkout 1a8fabc5067aa45
+ 1470  git checkout master
+ 1471  ls -la
+ 1472  git log
+ 1473  git checkout 0c340d48c74bf821
+ 1474  ls
+ 1475  git log
+ 1476  ls -al ~/.ssh
+ 1477  ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+ 1478  exit
+ 1479  ls -la ~/.ssh
+ 1480  ssh-keygen -t rsa -b 4096 -C "a26052013@gmail.com"
+ 1481  cat ~ id_rsa.pub
+ 1482  cat ~/id_rsa.pub
+ 1483  ls -la
+ 1484  cd .ssh
+ 1485  ls -la
+ 1486  at id_rsa.pub
+ 1487  cat id_rsa.pub
+ 1488  cd ..
+ 1489  eval $(ssh-agent -s)
+ 1490  ssh-add ~/.ssh/id_rsa
+ 1491  clip < ~/.ssh/id_rsa.pub
+ 1492  git remote add origin git@github.com:TJQKAs/playing-with-git.git
+ 1493  ssh -T git@github.com
+ 1494  git remote -v
+ 1495  -ssh -T git@github.com
+ 1496  ssh -T git@github.com
+ 1497  git remote add origin git@github.com:TJQKAs/playing-with-git.git
+ 1498  ssh -T git@github.com
+ 1499  git remote -v
+ 1500  ➜  ~  git@github.com:TJQKAs/playing-with-git.gitgit@github.com:TJQKAs/playing-with-git.git
+ 1501  ➜  ~  git@github.com:TJQKAs/playing-with-git.git
+ 1502  git remote add origin git@github.com:TJQKAs/playing-with-git.git
+ 1503  git init
+ 1504  fatal: Not a git repository (or any of the parent directories): .git
+ 1505  git remote add origin git@github.com:TJQKAs/playing-with-git.git
+ 1506  git remote -v
+ 1507  git init
+ 1508  git remote -v
+ 1509  git push -u origin master
+ 1510  .git/config
+ 1511  q
+ 1512  cd ..
+ 1513  cd
+ 1514  pwd
+ 1515  ssh -T git@github.com
+ 1516  git remote -v
+ 1517  git remote add origin git@github.com:TJQKAs/playing-with-git.git
+ 1518  git push -u origin master
+ 1519  git commit -m 'initial commit'
+ 1520  git push -u origin master
+ 1521  git push origin master
+ 1522  git add -A
+ 1523  git log
+ 1524  .git log
+ 1525  git log
+ 1526  exit
+ 1527  cd ..
+ 1528  ls -la
+ 1529  cd nitrous
+ 1530  git remote -v
+ 1531  git remote add origin git@github.com:TJQKAs/playing-with-git.git
+ 1532  git remote -v
+ 1533  ls -la
+ 1534  cd gitDir
+ 1535  ls -la
+ 1536  echo "Git is Awesome" > gitTextgit 
+ 1537  ls -la
+ 1538  cd ..
+ 1539  git add gitText
+ 1540  git init
+ 1541  git add gitText
+ 1542  cd ..
+ 1543  ls -ls
+ 1544  ls -la
+ 1545  cd nitrous
+ 1546  ls -la
+ 1547  cd code
+ 1548  ls -la
+ 1549  gitDir
+ 1550  cd ..
+ 1551  gitDir
+ 1552  cd ..
+ 1553  ls -la
+ 1554  cd..
+ 1555  cd ..
+ 1556  ls -la
+ 1557  cd gitDir
+ 1558  ls -la
+ 1559  echo "Git is awesome" > gitText
+ 1560  ls -la
+ 1561  git add gitText
+ 1562  git commit -m "First commit"
+ 1563  git status
+ 1564  git commit -m "Second commit"
+ 1565  git remote -v
+ 1566  echo "Hello this is a test" > gitText
+ 1567  init
+ 1568  git init
+ 1569  git add gitText
+ 1570  git commit -m "First commit"
+ 1571  git remote add origin git@github.com:TJQKAs/playing-with-git.git
+ 1572  push -u origin master
+ 1573  git push -u origin master
+ 1574  git log
+ 1575  git pull origin master
+ 1576  git log
+ 1577  cd ..
+ 1578  ls -la
+ 1579  cd nirous
+ 1580  cd nitrous
+ 1581  mkdir ~/Projects
+ 1582  cd ~/Projects
+ 1583  mkdir ruby-practice
+ 1584  cd rubt-practice
+ 1585  cd ruby-practice
+ 1586  git init
+ 1587  echo "Intoductory Ruby exercise" > Readme
+ 1588  git add Readme
+ 1589  commit -m "Initial commit"
+ 1590  git commit -m "Initial commit"
+ 1591  cd ~/Projects
+ 1592  git clone https://github.com/JoshCheek/ruby-kickstart.git
+ 1593  git log
+ 1594  ls -la
+ 1595  cd ruby-kickstart
+ 1596  ls -la
+ 1597  cd ..
+ 1598  mkdir ~/dev
+ 1599  ls -la
+ 1600  cd nitrous
+ 1601  ls -la
+ 1602  cd dev
+ 1603  mkdir command-line
+ 1604  cd command-line
+ 1605  git init
+ 1606  mkdir gitDir
+ 1607  cd gitDir
+ 1608  echo "This is a list of some of the most useful shell commands" >README
+ 1609  ls -la
+ 1610  git add README
+ 1611  git commit -m "well maybe not all of those commands are so useful"
+ 1612  git status
+ 1613  git log
+ 1614  ls -al ~/.ssh
+ 1615  ssh-keygen -t rsa -b 4096 -C "a26052013@gmail.com"
+ 1616  ls -la
+ 1617  cat yes.pub
+ 1618  ssh-agent -s
+ 1619  ssh -T git@github.com
+ 1620  git remote add origin git@github.com:TJQKAs/command-line.git
+ 1621  git push -u origin master
+ 1622  touch mv
+ 1623  ls -la
+ 1624  git add mv
+ 1625  git commit -m "This is the first day of your rest"
+ 1626  git push -u origin master
+ 1627  git pull origin master
+ 1628  ls -la
+ 1629  cat mv
+ 1630  touch cp
+ 1631  touch grep
+ 1632  touch wc
+ 1633  touch ps
+ 1634  ls -la
+ 1635  git add cp
+ 1636  git commit -m cp
+ 1637  git add grep
+ 1638  git commit -m grep
+ 1639  git add ps
+ 1640  git commit -m ps
+ 1641  git add wc 
+ 1642  git commit -m wc
+ 1643  git push -u origin master
+ 1644  help
+ 1645  man
+ 1646  ls man
+ 1647  cat man
+ 1648  man
+ 1649  man --help
+ 1650  man
+ 1651  man -a
+ 1652  man --help
+ 1653  man-?
+ 1654  ls man
+ 1655  cat man
+ 1656  man
+ 1657  man ls
+ 1658  ls -la
+ 1659  ls -la | grep mv
+ 1660  ~ ls -la | grep mv
+ 1661  wc --help
+ 1662  git pull origin master
+ 1663  ls -la
+ 1664  cat grep
+ 1665  git log
+ 1666  cd ..
+ 1667  ls -la
+ 1668  cd ...
+ 1669  cd ..
+ 1670  ls -la
+ 1671  cd nitrous
+ 1672  ls -la
+ 1673  cd dev
+ 1674  ls -la
+ 1675  cd command-line
+ 1676  ls -la
+ 1677  cd ..
+ 1678  ls -la
+ 1679  rm -r command-line
+ 1680  ls -la
+ 1681  rm -f command-line
+ 1682  rmdir -f command-line
+ 1683  rm -f command-line
+ 1684  rm -r command-line
+ 1685  ls -la
+ 1686  rm command-line
+ 1687  rmdir command-line
+ 1688  cd ..
+ 1689  ls -la
+ 1690  cd dev
+ 1691  ls -la
+ 1692  git clone git@github.com:TJQKAs/command-line.git
+ 1693  ls -la
+ 1694  cd command-line
+ 1695  ls -la
+ 1696  git log
+ 1697  cd gitDir
+ 1698  ls -la
+ 1699  git rm ps
+ 1700  git commit -m "deleted ps"
+ 1701  git push -u origin master
+ 1702  cd ..
+ 1703  history > history.txt
+ 1704  ls -la
+ 1705  cat history.txt
+ 1706  cd ..
+ 1707  ls -la
+ 1708  cd nitrous
+ 1709  ls -la
+ 1710  gem install rspec
+ 1711  cd Projects
+ 1712  ls -la
+ 1713  cd ..
+ 1714  cd ruby-kickstart
+ 1715  cd ..
+ 1716  git --version
+ 1717  cd ..
+ 1718  cd ls-la
+ 1719  ls -la
+ 1720  cd home
+ 1721  cd nitrous
+ 1722  ls -la
+ 1723  git config
+ 1724  cat .gitconfig
+ 1725  ls -la
+ 1726  pwd
+ 1727  git config --global user.name "TJQKAs"
+ 1728  git config --global user.email "a26052013@gmail.com"
+ 1729  git config --global core.autocrlf input
+ 1730  git config --global core.safecrlf true
+ 1731  mkdir Devel
+ 1732  cd Devel
+ 1733  mkdir gitDir
+ 1734  cd gitDir
+ 1735  echo "Git is Awesome" > gitText
+ 1736  git init
+ 1737  git add gitText
+ 1738  git commit -m "First commit"
+ 1739  git status
+ 1740  git commit -m "Updated gitText"
+ 1741  git status
+ 1742  rm gitText
+ 1743  touch moreGitText
+ 1744  git commit -m
+ 1745  git status
+ 1746  git add newFile
+ 1747  touch newFile
+ 1748  gir add newFile
+ 1749  git add newFile
+ 1750  git rm newFile
+ 1751  git rm gitText
+ 1752  git commit -m "deleted gitText"
+ 1753  git status
+ 1754  git checkout
+ 1755  git log
+ 1756  git checkout master
+ 1757  git remote -v
+ 1758  cd ..
+ 1759  ls -la
+ 1760  cd nitorus
+ 1761  cd nitous
+ 1762  cd nitrous
+ 1763  ls -la
+ 1764  cd Projects
+ 1765  ls -la
+ 1766  cd ruby-kickstart
+ 1767  ls -la
+ 1768  ls
+ 1769  cd ..
+ 1770  ls -la
+ 1771  cd Devel
+ 1772  ls -la
+ 1773  git init
+ 1774  git pull origin master
+ 1775  ls -la
+ 1776  ls -la ~/.ssh
+ 1777  ssh-keygen -t rsa -b 4096 -C "a26052013@gmail.com"
+ 1778  cat ~/yeh.pub
+ 1779  ls -la
+ 1780  cat yeh.pub
+ 1781  ssh-agent -s
+ 1782  ssh-add ~/.ssh/yeh
+ 1783  ssh ~/.ssh/id_rsa
+ 1784  ssh -T git@github.com
+ 1785  git remote -v
+ 1786  git init
+ 1787  git remote add origin git@github.com:TJQKAs/playing-with-git.git
+ 1788  git remote -v
+ 1789  git push -u origin master
+ 1790  git remote -v
+ 1791  git push master
+ 1792  git remote -v
+ 1793  ls -la
+ 1794  mkdir hello
+ 1795  cd hello
+ 1796  puts "hello, World"
+ 1797  touch hello.rb > puts "Hello, World"
+ 1798  ls -la
+ 1799  rm hello, World
+ 1800  cd ..
+ 1801  ls -la
+ 1802  rm hello
+ 1803  mr -r hello
+ 1804  cd hello
+ 1805  ls -la
+ 1806  rm Hello, World
+ 1807  ls -la
+ 1808  ruby hello.rb
+ 1809  cat hello.rb
+ 1810  hello.rb > puts "Hello, World"
+ 1811  Hello.rb > puts "Hello, World"
+ 1812  cat > hello.rb
+ 1813  ruby hello.rb
+ 1814  git init
+ 1815  git add hello.rb
+ 1816  git commit -m "First Commit"
+ 1817  git status
+ 1818  ls -la
+ 1819  rm -r puts
+ 1820  ls -la
+ 1821  ruby hello.rb
+ 1822  git status
+ 1823  cat > hello.rb
+ 1824  git status
+ 1825  git add hello.rb
+ 1826  git status
+ 1827  git commit
+ 1828  git status
+ 1829  cat hello.rb
+ 1830  git add hello.rb
+ 1831  git status
+ 1832  git commit -m "Added a default value"
+ 1833  git status
+ 1834  git add .
+ 1835  git status
+ 1836  git commit -m "Added a comment"
+ 1837  git log
+ 1838  git log --pretty=oneline
+ 1839  git log --pretty=oneline --all
+ 1840  git log --all --pretty=format:'%h %cd %s (%an)' --since='7 days ago'
+ 1841  git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+ 1842  cd ..
+ 1843  ls -la
+ 1844  cat .gitconfig
+ 1845  go <branch>
+ 1846  git hist
+ 1847  ls -la
+ 1848  source ~/.zshrc
+ 1849  go branch
+ 1850  go
+ 1851  git hist
+ 1852  cd hello
+ 1853  git hist
+ 1854  git history
+ 1855  git checkout <hash>
+ 1856  git hist
+ 1857  go <branch>
+ 1858  go branch
+ 1859  go checkout <hash>
+ 1860  git hist
+ 1861  go branch
+ 1862  go "branch"
+ 1863  go $branch
+ 1864  go <branch>
+ 1865  git checkout <hash>
+ 1866  rvm --trace --version
+ 1867  zsh --version
+ 1868  git checkout master
+ 1869  cat hello.rb
+ 1870  git checkout hash
+ 1871  git hist
+ 1872  git checkout "hash"
+ 1873  go checkout
+ 1874  git checkout #hash
+ 1875  git checkout /hash/
+ 1876  git tag v1
+ 1877  git checkout -b
+ 1878  source ~/.profile
+ 1879  source ~/.zshrc
+ 1880  go <branch>
+ 1881  git checkout <hash>
+ 1882  git tag v1
+ 1883  git checkout v1^
+ 1884  cat hello.rb
+ 1885  git tag v1-beta
+ 1886  git checkout vq
+ 1887  git checkout v1
+ 1888  git checkout v1-beta
+ 1889  git tag
+ 1890  git hist master --all
+ 1891  git checkout master
+ 1892  git status
+ 1893  git checkout hello.rb
+ 1894  git status
+ 1895  cat hello.rb
+ 1896  git add hello.rb
+ 1897  git status
+ 1898  git reset HEAD hello.rb
+ 1899  git checkout hello.rb
+ 1900  git status
+ 1901  git add hello.rb
+ 1902  git commit -m "Oops, we didn't want this commit"
+ 1903  git revert HEAD
+ 1904  git hist
+ 1905  git hoist
+ 1906  git hist
+ 1907  git tag oops
+ 1908  git reset --hard v1
+ 1909  git hist
+ 1910  git hist --all
+ 1911  git hist
+ 1912  git tag -d oops
+ 1913  git hist --all
+ 1914  git add hello.rb
+ 1915  git commit -m "Add an author comment"
+ 1916  git add hello.rb
+ 1917  git commit --amend -m "Add an author/email comment"
+ 1918  git hist
+ 1919  ls -la
+ 1920  mkdir lib
+ 1921  git mv hello.rb lib
+ 1922  git status
+ 1923  git commit -m "Moved hello.rb to lib"
+ 1924  gem install rake
+ 1925  ls -la
+ 1926  git add Rakefile
+ 1927  gem install rake
+ 1928  gir add Rakefile
+ 1929  ls -la
+ 1930  cd lib
+ 1931  ls -la
+ 1932  cd ..
+ 1933  ls -la
+ 1934  cd hello
+ 1935  touch Rakefile
+ 1936  git add Rakefile
+ 1937  git commit -m "Added a Rakefile"
+ 1938  rake
+ 1939  ls -C .git
+ 1940  ls -C .git/objects
+ 1941  ls -C .git/objects/<dir>
+ 1942  ls -C .git/objects//dir
+ 1943  ls -C .git/objects/dir
+ 1944  ls -C .git/objects/{dir}
+ 1945  ls -C .git/objects/[dir]
+ 1946  cat .git/config
+ 1947  ls .git/refs
+ 1948  ls .git/refs/heads
+ 1949  ls .git/refs/tags
+ 1950  ls .git/refs/tags/v1
+ 1951  cat .git/HEAD
+ 1952  git hist --max-count=1
+ 1953  git cat-file -t 'hash'
+ 1954  cat --help
+ 1955  git cat-file -t hash
+ 1956  git cat-file -t (hash)
+ 1957  git cat-file -t #hash
+ 1958  git cat-file -t | <hash>
+ 1959  git cat-file -t < hash >
+ 1960  git checkout -b greet
+ 1961  git status
+ 1962  cd lib
+ 1963  touch greeter
+ 1964  touch greeter.rb
+ 1965  git add lib/greeter.rb
+ 1966  cd ..
+ 1967  git add lib/greeter.rb
+ 1968  git commit-m "Added greeter class"
+ 1969  git commit -m "Added greeter class"
+ 1970  git add lib/hello.rb
+ 1971  git commit -m "Hello uses Greeter"
+ 1972  ls -la
+ 1973  git added Rakefile
+ 1974  git add Rakefile
+ 1975  git commit -m "Update Rakefile"
+ 1976  git hist --all
+ 1977  git checkout master
+ 1978  cat lib/hello.rb
+ 1979  git checkout greet
+ 1980  cat lib/hello.rb
+ 1981  git checkout master
+ 1982  touch README > this is the Hello World example from git tutorial
+ 1983  cat README
+ 1984  CAT > README
+ 1985  cat > README
+ 1986  cat README
+ 1987  git add README
+ 1988  git commit -m "added README"
+ 1989  git hist --all
+ 1990  git checkout greet
+ 1991  git merge master
+ 1992  git hist --all
+ 1993  git checkout master
+ 1994  git add lib/hello.rb
+ 1995  git commit -m "Made interactive"
+ 1996  git hist --all
+ 1997  git checkout greet
+ 1998  git merge master
+ 1999  git add lib/hello.rb
+ 2000  git commit -m "Merged master fixed conflict"
+ 2001  git checkout greet
+ 2002  git hist
+ 2003  git reset --hard <hash>
+ 2004  git reset --hard <<hash>>\nq
+ 2005  git hist --all
+ 2006  git reset hash
+ 2007  git reset --hard [<hash>]
+ 2008  git reset --hard #
+ 2009  git hist
+ 2010  git reset --hard #
+ 2011  git hist
+ 2012  git hist --all
+ 2013  git checkout master
+ 2014  git hist
+ 2015  git reset --hard #
+ 2016  git hist --all
+ 2017  git checkout greet
+ 2018  git rebase master
+ 2019  git hist
+ 2020  git checkout master
+ 2021  git merge greet
+ 2022  git checkout master
+ 2023  git merge greet
+ 2024  git commit -a
+ 2025  git checkout master
+ 2026  git checkout
+ 2027  git checkout greet
+ 2028  git hist'
+ 2029  git hist
+ 2030  git hist --all
+ 2031  git reset --hard #
+ 2032  git checkout master 
+ 2033  git checkout greet
+ 2034  git hist
+ 2035  git checkout master
+ 2036  git hist
+ 2037  git checkout master
+ 2038  git merge greet
+ 2039  git hist
+ 2040  cd ..
+ 2041  pwd
+ 2042  ls -la
+ 2043  git clone hello cloned_hello
+ 2044  ls -la
+ 2045  cd cloned_hello
+ 2046  ls -la
+ 2047  git hist --all
+ 2048  git remote 
+ 2049  git remote show origin
+ 2050  git branch
+ 2051  git branch -a
+ 2052  cd ../hello
+ 2053  git add README
+ 2054  git add README "Change README in original repo"
+ 2055  git commit -m ""Change README in original repo""
+ 2056  git hist
+ 2057  git add README
+ 2058  git commit -m "Changed README in original repo"
+ 2059  cd ../cloned_hello
+ 2060  git fetch
+ 2061  git hist --all
+ 2062  cat RAEDME
+ 2063  cat README
+ 2064  git merge origin/master
+ 2065  cat README
+ 2066  git pull
+ 2067  git fetch
+ 2068  git branch --track greet origin/greet
+ 2069  git branch -a
+ 2070  git hist --max-count=2
+ 2071  cd .. 
+ 2072  ls -la
+ 2073  git clone --bare hello hello.git
+ 2074  ls hello.git
+ 2075  ls -la
+ 2076  ls -la hello.git
+ 2077  cd hello
+ 2078  git remote add shared ../hello.git
+ 2079  git add README
+ 2080  git commit -m "Added shared comment to readme"
+ 2081  git checkout master
+ 2082  git push shared master
+ 2083  cd ../cloned_hello
+ 2084  git remote add shared ../hello.git
+ 2085  git branch --track shared master
+ 2086  git pull shared master
+ 2087  cat README
+ 2088  cd ..
+ 2089  git daemon --verbose --export-all --base-path=.
+ 2090  pwd
+ 2091  git clone git://localhost/hello.git network_hello
+ 2092  cd network_hello
+ 2093  ls -la
+ 2094  history > 12-08-15.txt
+ 2095  cat 12-08-15.txt
+ 2096  ls -la
+ 2097  cd Projects
+ 2098  ls -la
+ 2099  cd ruby-kickstart
+ 2100  ls -la
+ 2101  cd ..
+ 2102  ls -la
+ 2103  gem install rspec
+ 2104  cd Projects
+ 2105  ls -la
+ 2106  cd ruby-practice
+ 2107  ls -la
+ 2108  cat Readme
+ 2109  ruby-kickstart
+ 2110  cd ..
+ 2111  cd ruby-kickstart
+ 2112  ls -la
+ 2113  cat README.mdown
+ 2114  ls -la
+ 2115  cd session1
+ 2116  ls -la
+ 2117  cd challenge
+ 2118  ls -la
+ 2119  cat 1_aritmetic.rb
+ 2120  cat 1_arithmetic.rb
+ 2121  git remote -v
+ 2122  ls -la
+ 2123  cd Projects
+ 2124  ls -la
+ 2125  cd ruby-kickstart
+ 2126  ls -la
+ 2127  cd session1
+ 2128  ls -la
+ 2129  cd challenge
+ 2130  ls -la
+ 2131  ruby 1_arithmetic.rb
+ 2132  ruby 4_logic.rb
+ 2133  cd ..
+ 2134  cd .
+ 2135  cd ..
+ 2136  git clone https://github.com/makersacademy/learn_to_program.git
+ 2137  ls -la
+ 2138  mkdir MakersAcademy
+ 2139  ls -la
+ 2140  pwd
+ 2141  cd MakersAcademy
+ 2142  git clone https://github.com/makersacademy/learn_to_program.git
+ 2143  cd ..
+ 2144  pwd
+ 2145  cd Makersacademy
+ 2146  cd MakersAcademy
+ 2147  ls -la
+ 2148  learn_to_program
+ 2149  ls -la
+ 2150  ch09-writing-your-own-methods
+ 2151  ls -la
+ 2152  rspec spec/ch09/ask_spec.rb
+ 2153  cd ..
+ 2154  gem install rspec
+ 2155  rspec spec/ch09/ask_spec.rb
+ 2156  ruby-kickstart TJQKAs$ rake 1:1
+ 2157  ls -la
+ 2158  cd Projects
+ 2159  ls -la
+ 2160  cd ruby-kickstart
+ 2161  ls -la
+ 2162  cd  session1
+ 2163  ls -la
+ 2164  cd challenge
+ 2165  ls -la
+ 2166  ruby 1_arithnetic.rb
+ 2167  ruby  1_arithmetic.rb
+ 2168  cat 1_arithnetic.rb
+ 2169  cat 1_arithmetic.rb
+ 2170  rake 1:2
+ 2171  trace
+ 2172  clear
+ 2173  rake 1:2
+ 2174  rake 1:4
+ 2175  ruby -h
+ 2176  rake -T
+ 2177  which program_name
+ 2178  LS -LA
+ 2179  reset
+ 2180  ls -la
+ 2181  cd Projects
+ 2182  ls -la
+ 2183  git clone git@github.com:TJQKAs/Octocat.git
+ 2184  ls -la
+ 2185  cd Octocat
+ 2186  ls -la
+ 2187  git init
+ 2188  touch clone.txt
+ 2189  git add clone.txt
+ 2190  cat > clone.txt
+ 2191  git -m commit "File has already created"
+ 2192  git commit -m "File with question has already created"
+ 2193  touch branch.txt
+ 2194  git add branch.txt
+ 2195  cat > branch.txt
+ 2196  git commit -m "Second file with question has already created"
+ 2197  touch upstream.txt
+ 2198  git add upstream.txt
+ 2199  cat > upstream.txt
+ 2200  git add upstream.txt
+ 2201  cat > upstream.txt
+ 2202  cat upstream.txt
+ 2203  cat > upstream.txt
+ 2204  git commit -m "Third file with question has already created"
+ 2205  git status
+ 2206  git log
+ 2207  git checkout -b answers
+ 2208  ls -la
+ 2209  cd dev
+ 2210  ls -la
+ 2211  mkdir projects
+ 2212  ls -la
+ 2213  mkdir Octocat
+ 2214  ls -la
+ 2215  cd projects
+ 2216  mkdir Octocat
+ 2217  ls -la
+ 2218  git init
+ 2219  cd ..
+ 2220  ls -la
+ 2221  mkdir projects
+ 2222  ls -la
+ 2223  mkdir Octocat
+ 2224  ls -la
+ 2225  cd projects
+ 2226  ls -la
+ 2227  mkdir Octocat
+ 2228  ls -la
+ 2229  cd Octocat
+ 2230  ls -la
+ 2231  git init
+ 2232  ls -la
+ 2233  touch clone.txt
+ 2234  git add clone.txt
+ 2235  cat > clone.txt
+ 2236  git commit -m "The first file with a question is created"
+ 2237  touch upstream.txt
+ 2238  git add upstream.txt
+ 2239  cat > upstream.txt
+ 2240  git commit -m "The second file with a question is created"
+ 2241  touch branch.txt
+ 2242  git add branch.txt
+ 2243  cat > branch.txt
+ 2244  git commit -m "The third file with a question is created"
+ 2245  ls -al ~/.ssh
+ 2246  ssh-keygen -t rsa -b 4096 -C "a26052013@gmail.com"
+ 2247  ls -la
+ 2248  cat uuo
+ 2249  cat uuo.pub
+ 2250  git remote add origin git@github.com:TJQKAs/Octocat.git
+ 2251  ssh -T git@github.com
+ 2252  git remote -v
+ 2253  git push -u origin master
+ 2254  git log
+ 2255  checkout --help
+ 2256  touch clone.txt
+ 2257  ls -la
+ 2258  cat clone.txt
+ 2259  git add branch.txt
+ 2260  git commit -m "additonal commit"
+ 2261  git push -u origin master
+ 2262  git add clone.txt
+ 2263  git commit -m "additional commit"
+ 2264  git push -u origin master
+ 2265  git add upstream.txt
+ 2266  git commit -m "additional commit"
+ 2267  git push -u origin master
+ 2268  git add branch.txt
+ 2269  git commit -m "additional commit"
+ 2270  git push -u origin master
+ 2271  git checkout -b answers
+ 2272  git add clone.txt
+ 2273  cat > clone.txt
+ 2274  git commit -m "from another branch-1"
+ 2275  git status
+ 2276  cat clone.txt
+ 2277  git add clone.txt
+ 2278  git commit -m "additional commit"
+ 2279  git add branch.txt
+ 2280  cat > branch.txt
+ 2281  git commit -m "additonal commit"
+ 2282  git add branch.txt
+ 2283  git commmit -m "Additional commit"
+ 2284  git commit -m "Additional commit"
+ 2285  cat > upstream.txt
+ 2286  git add upstream.txt
+ 2287  git commit -m "Additional commit"
+ 2288  git push -u origin answer
+ 2289  git push
+ 2290  checkout -b master
+ 2291  git checkout master
+ 2292  git checkout -b answer
+ 2293  git push -u origin answer
+ 2294  cat branch.txt
+ 2295  cat > branch.txt
+ 2296  git add branch.txt
+ 2297  git commit -m "answer commit1"
+ 2298  cat > clone.txt
+ 2299  git add clone.txt
+ 2300  git commit -m "answer commit2"
+ 2301  git push -u origin answer
+ 2302  cat > upstream.txt
+ 2303  git add upstream.txt
+ 2304  git commit -m "answer commit3"
+ 2305  git push -u origin answer
+ 2306  git checkout -b master
+ 2307  history > 1firstchallenge.txt
+ 2308  cat 1firstchallenge.txt
+ 2309  cd ..
+ 2310  ls -la
+ 2311  cd ..
+ 2312  ls -la
+ 2313  cd ..
+ 2314  pwd
+ 2315  cd dev
+ 2316  ls -la
+ 2317  git clone git@github.com:TJQKAs/the-cat.git
+ 2318  ls -la
+ 2319  cd the-cat
+ 2320  git init
+ 2321  ls -la
+ 2322  git remote -v
+ 2323  mkdir Russia
+ 2324  cd Russia
+ 2325  touch Moscow
+ 2326  rm Moscow
+ 2327  touch Moscow.txt
+ 2328  ls -la
+ 2329  cat > Moscow.txt
+ 2330  ls -lA
+ 2331  git add Moscow.txt
+ 2332  git commit -m "one more capital"
+ 2333  git push -u origin master
+ 2334  cd ..
+ 2335  ls -la
+ 2336  history > 2015-08-14.txt
+ 2337  pwd
+ 2338  ls -la
+ 2339  git init
+ 2340  mkdir plan
+ 2341  ls -la
+ 2342  cd plan
+ 2343  git init
+ 2344  git clone git@github.com:TJQKAs/learning_plan_september2015.git
+ 2345  ls -la
+ 2346  cd learning_plan_september2015
+ 2347  ls -la
+ 2348  git pull origin master
+ 2349  git commit -m "Update first and second weeks of plan"
+ 2350  git add precourse_week01.md
+ 2351  git commit -m "Update first week"
+ 2352  git add precourse_week02.md
+ 2353  git commit -m "Update second week"
+ 2354  git pull orgign master
+ 2355  git pull origin master
+ 2356  git remote -v
+ 2357  git pull origin master
+ 2358  ls -la
+ 2359  git log
+ 2360  ls -la
+ 2361  cd plan
+ 2362  ls -la
+ 2363  cd learning_plan_september2015
+ 2364  ls -la
+ 2365  git init
+ 2366  git pull origin master
+ 2367  git status
+ 2368  git push
+ 2369  git pull origin master
+ 2370  irb
+ 2371  which irb
+ 2372  which rake
+ 2373  which rvm
+ 2374  which rake
+ 2375  which rspec
+ 2376  ~ /usr/local/opt/rbenv/shims/rspec
+ 2377  ~ /usr/local/opt/rbenv/shims/rspec ~/spec/ch09/ask_spec.rb
+ 2378  ls -la
+ 2379  cd Projects
+ 2380  ls -la
+ 2381  cd ruby-kickstart
+ 2382  ls -la
+ 2383  cd session1
+ 2384  ls -la
+ 2385  cd challenge
+ 2386  ls -la
+ 2387  which rspec
+ 2388  ~/usr/local/opt/rbenv/shims/rspec
+ 2389  irb
+ 2390  cd ..
+ 2391  ls -la
+ 2392  ruby list known
+ 2393  irb
+ 2394  rvm list known
+ 2395  $ rvm list known
+ 2396  irb
+ 2397  irb 
+ 2398  rake -v
+ 2399  rake --trace
+ 2400  which rspec
+ 2401  rake 1;1
+ 2402  rake 1:1
+ 2403  bundle exec rake routes
+ 2404  bundle install
+ 2405  rake 1:1
+ 2406  rake 1:2
+ 2407  rake 1:1
+ 2408  git init
+ 2409  git remote -v
+ 2410  cd ~
+ 2411  ls -la
+ 2412  cd Projects
+ 2413  ls -la
+ 2414  git clone
+ 2415  git clone git@github.com:TJQKAs/ruby-kickstart.git
+ 2416  ls -la
+ 2417  cd ruby-kickstart
+ 2418  ls -la
+ 2419  rake 1:1
+ 2420  gem install rspec
+ 2421  rake 1:1
+ 2422  bundle install
+ 2423  rake 1:1
+ 2424  which rspec
+ 2425  rake 1:1
+ 2426  rake 1:2
+ 2427  rake 1:3
+ 2428  rake 1:4
+ 2429  rake 1:5
+ 2430  cd ..
+ 2431  ls -la
+ 2432  git clone git@github.com:TJQKAs/learn_to_program.git
+ 2433  ls -la
+ 2434  cd learn_to_program
+ 2435  ls -la
+ 2436  rspec spec/ch09/ask_spec.rb
+ 2437  bundle install
+ 2438  rspec spec/ch09/ask_spec.rb
+ 2439  cd ..
+ 2440  ls -la
+ 2441  cd ruby-kickstart
+ 2442  rake 1:4
+ 2443  rake 1:6
+ 2444  rake 1:4
+ 2445  rake 1:5
+ 2446  rake 1:6
+ 2447  rake 1:7
+ 2448  rake 1:1
+ 2449  rake 1:2
+ 2450  rake 1:3
+ 2451  rake 1:4
+ 2452  rake 1:5
+ 2453  rake 1:6
+ 2454  rake 1:7
+ 2455  git init
+ 2456  git add -a
+ 2457  git add -A
+ 2458  ls -la
+ 2459  cd projects
+ 2460  cd Projects
+ 2461  ls -la
+ 2462  cd ruby-kickstart
+ 2463  ls -la
+ 2464  cd session1
+ 2465  ls -la
+ 2466  cd 3-challenge
+ 2467  ls -la
+ 2468  git add 1_arithmetic.rb
+ 2469  git commit -m "update"
+ 2470  git add 2_arithmetic.rb
+ 2471  git commit -m "update"
+ 2472  git add 3_simple_logic.rb
+ 2473  git add 4_logic.rb
+ 2474  git commit -m "update"
+ 2475  git add 5_string.rb
+ 2476  git commit -m "update"
+ 2477  git add 6_string.rb
+ 2478  git commit -m "update"
+ 2479  git add 7_string.rb
+ 2480  git commit -m "update"
+ 2481  git remote -v
+ 2482  git pull origin master
+ 2483  git push -u origin master
+ 2484  git pull origin master
+ 2485  irb
+ 2486  rake 2:1
+ 2487  ls-la
+ 2488  ls -la
+ 2489  cd  Projects
+ 2490  ls -la
+ 2491  cd ruby-kickstart
+ 2492  ls -la
+ 2493  rake 2:1
+ 2494  irb
+ 2495  rake 2:1
+ 2496  irb 
+ 2497  rake 2:2
+ 2498  def hi_hi_goodbye
+ 2499  irb
+ 2500  rake 2:2
+ 2501  irb
+ 2502  rake 2:2
+ 2503  rake 2:1
+ 2504  rake 2:3
+ 2505  irb
+ 2506  rake 2:4
+ 2507  irb
+ 2508  rake 2:4
+ 2509  irb
+ 2510  rake 2:5
+ 2511  irb
+ 2512  rake 2:8
+ 2513  irb
+ 2514  rake 2:8
+ 2515  irb
+ 2516  rake 2:8
+ 2517  rake 2:6
+ 2518  rake 2:7
+ 2519  rake 2:8
+ 2520  irb
+ 2521  rake 2:3
+ 2522  rake 2:4
+ 2523  rake 2:5
+ 2524  str.split(/\W/).each_slice(2).collect(&:first)
+ 2525  irb
+ 2526  rake 2:8
+ 2527  rake 2:7
+ 2528  ls -la
+ 2529  cd Projects
+ 2530  ls -la
+ 2531  cd ruby-kickstart
+ 2532  ls -la
+ 2533  cd session2
+ 2534  ls -la
+ 2535  cd ..
+ 2536  rake 2:7
+ 2537  ls -la
+ 2538  rake 2:1
+ 2539  rake 2:7
+ 2540  rake 2:3
+ 2541  irb
+ 2542  rake 2:3
+ 2543  rake 2:4
+ 2544  rake 2:5
+ 2545  rake 2:6
+ 2546  rake 2:7
+ 2547  irb
+ 2548  ls -la
+ 2549  cat Rakefile
+ 2550  git init
+ 2551  ls -la
+ 2552  cd session2
+ 2553  ls -la
+ 2554  cd 3-challenge
+ 2555  ls -la
+ 2556  git add 1_input_output.rb
+ 2557  git commit -m "update1"
+ 2558  git add 2_input_output_logic_string.rb
+ 2559  git add 2_input_output_control.rb
+ 2560  git commit -m "update2"
+ 2561  git add 3_array.rb
+ 2562  git commit -m "update3"
+ 2563  git add 4_array.rb
+ 2564  git commit -m "update4"
+ 2565  git add 5_array.rb
+ 2566  git commit -m "update5"
+ 2567  git add 8_array.rb
+ 2568  git commit -m "update8"
+ 2569  git push -u origin master
+ 2570  irb
+ 2571  irb 
+ 2572  ls -la
+ 2573  cd Projects
+ 2574  ls -la
+ 2575  cd ruby-kickstart
+ 2576  ls -la
+ 2577  cd 
+ 2578  cd ~/session2
+ 2579  ls -la
+ 2580  cd ~/.session2
+ 2581  cd  Projects
+ 2582  cd ruby-kickstart
+ 2583  cd session2
+ 2584  ls -la
+ 2585  rake 2:9
+ 2586  cd ..
+ 2587  rake 2:9
+ 2588  rake 1:1
+ 2589  rake 2:9
+ 2590  rake 2:1
+ 2591  rake 2:2
+ 2592  rake 2:9
+ 2593  bundle install
+ 2594  rake 2:9
+ 2595  $ ruby 9_input_output_logic_string.rb
+ 2596  ruby 9_input_output_logic_string.rb
+ 2597  cd session2
+ 2598  ls -la
+ 2599  cd 3-challenge
+ 2600  ls -la
+ 2601  ruby 9_input_output_logic_string.rb
+ 2602  cd Projects
+ 2603  ls -la
+ 2604  cd  ruby-kickstart
+ 2605  cd session2
+ 2606  ls -la
+ 2607  cd 3-challenge
+ 2608  ls -la
+ 2609  ruby 9_input_output_logic_string.rb
+ 2610  rake 2:9
+ 2611  ruby 9_input_output_logic_string.rb
+ 2612  rake 2:9
+ 2613  ruby 9_input_output_logic_string.rb
+ 2614  rake 2:9
+ 2615  ruby 9_input_output_logic_string.rb
+ 2616  rake 2:9
+ 2617  ruby 9_input_output_logic_string.rb
+ 2618  rake 2:9
+ 2619  ruby 9_input_output_logic_string.rb
+ 2620  rake 2:9
+ 2621  rake 2:(\nrake 2:9\n\nexit
+ 2622  rake 2:9
+ 2623  rake 2:(\nrake 2:9\n\nexit
+ 2624  ruby 9_input_output_logic_string.rb
+ 2625  rake 2:9
+ 2626  rake 2:10
+ 2627  ruby 11_classes.rb
+ 2628  rake 2:11
+ 2629  cd projects
+ 2630  ls -la
+ 2631  cd Projects
+ 2632  ls -la
+ 2633  cd ruby-kickstart
+ 2634  ls -la
+ 2635  cd session2
+ 2636  la -la
+ 2637  cd 3-challenge
+ 2638  ls -la
+ 2639  ruby  11_classes.rb
+ 2640  rake 2:11
+ 2641  ls -la
+ 2642  touch 100.rb
+ 2643  ruby 100.rb
+ 2644  rake 2:11
+ 2645  rake 2:12
+ 2646  rake 2:13
+ 2647  rake 2:7
+ 2648  rake 2:1
+ 2649  rake 2:2
+ 2650  rake 2:3
+ 2651  rake 2:4
+ 2652  rake 2:5
+ 2653  rake 2:6
+ 2654  rake 2:7
+ 2655  rake 2:8
+ 2656  rake 2:9
+ 2657  rake 2:10
+ 2658  rake 2:11
+ 2659  rake 2:112
+ 2660  rake 2:12
+ 2661  rake 2:13
+ 2662  ls -la
+ 2663  cd code
+ 2664  ls -la
+ 2665  touch 001.rb
+ 2666  cat > 001.rb
+ 2667  ruby 001.rb
+ 2668  touch factorial.rb
+ 2669  ruby factroial.rb
+ 2670  ruby factorial.rb
+ 2671  ruby factroial.rb
+ 2672  ruby factorial.rb
+ 2673  irb
+ 2674  ('A'..'Z').each do |letter| 
+ 2675  irb
+ 2676  ls -la
+ 2677  cd plan
+ 2678  ls -la
+ 2679  cd 
+ 2680  cd plan
+ 2681  cd learning_plan_september2015
+ 2682  ls -la
+ 2683  git init
+ 2684  git add precourse_week03.md
+ 2685  git -m commit "update week3"
+ 2686  git commit -m "update week3"
+ 2687  git push origin master
+ 2688  git add precourse_week03.md
+ 2689  git commit -m "week3"
+ 2690  git push origin master
+ 2691  git add precourse_week03.md
+ 2692  git commit -m "week3"
+ 2693  git push origin master
+ 2694  git add precourse_week03.md
+ 2695  git commit -m "week3"
+ 2696  git push origin master
+ 2697  cd ..
+ 2698  ls -la
+ 2699  cd Projects
+ 2700  ls -la
+ 2701  cd ruby-kickstart
+ 2702  ls -la
+ 2703  cd session2
+ 2704  ls -la
+ 2705  cd 3-challenge
+ 2706  ls -la
+ 2707  git init
+ 2708  git add 6_array.rb
+ 2709  git commit -m "update 6"
+ 2710  git add 7_array.rb
+ 2711  git commit -m "update 7"
+ 2712  git add 9_array.rb
+ 2713  git add 9_array.rb9_array.rb
+ 2714  git add 9_array.rb9_array.rb9_array.rb9_array.rb
+ 2715  git add 9_array.rb9_array.rb
+ 2716  git add 9_input_output_logic_string.rb
+ 2717  git commit -m "update 9"
+ 2718  git add 9_input_output_logic_string.rb9_input_output_logic_string.rb
+ 2719  git add 10_classes.rb
+ 2720  git commit -m "update 10"
+ 2721  git add 11_classes.rb
+ 2722  git commit -m "update 11"
+ 2723  git add 12_classes.rb
+ 2724  git commit -m "update 12"
+ 2725  git push origin master
+ 2726  git init
+ 2727  push origin master
+ 2728  git push origin master
+ 2729  cd ..
+ 2730  git push origin master
+ 2731  git log
+ 2732  ls -la
+ 2733  cd Projects
+ 2734  ls -la
+ 2735  ruby-kickstart
+ 2736  ls -la
+ 2737  git add 6_array.rb
+ 2738  cd session2
+ 2739  ls -la
+ 2740  cd 3-challenge
+ 2741  ls -la
+ 2742  git add 6_array.rb
+ 2743  git commit -m "update 6"
+ 2744  push origin mater
+ 2745  push origin master
+ 2746  cd ..
+ 2747  git push origin master
+ 2748  cd Projects
+ 2749  ls -la
+ 2750  cd ruby-kickstart
+ 2751  ls -la
+ 2752  cd session2
+ 2753  ls -la
+ 2754  cd 3-challenge
+ 2755  ls -la
+ 2756  git add 6_array.rb
+ 2757  git commit -m "update 6"
+ 2758  git pull origin master
+ 2759  cd ..
+ 2760  git pull origin master
+ 2761  git push origin master
+ 2762  git push -u origin master
+ 2763  ls -la
+ 2764  cd session2
+ 2765  ls -la
+ 2766  cd 3-challenge
+ 2767  ls -la
+ 2768  git add 6_array.rb
+ 2769  git commit -m "update6"
+ 2770  git commit -A
+ 2771  git commit -a
+ 2772  git status
+ 2773  git add
+ 2774  yes
+ 2775  git init
+ 2776  git add 
+ 2777  ls -la
+ 2778  cd session2
+ 2779  ls -la
+ 2780  cd 3-challenge
+ 2781  ls -la
+ 2782  git add 6_array.rb
+ 2783  git commit -m "update6"
+ 2784  git add 3_array.rb
+ 2785  git commit -m "update3"
+ 2786  git add 4_array.rb
+ 2787  git commit -m "update4"
+ 2788  git add 5_array.rb
+ 2789  git commit -m "update5"
+ 2790  git add 8_array.rb
+ 2791  git commit -m "update8"
+ 2792  git add  1_input_output.rb
+ 2793  git commit -m "update1"
+ 2794  git add  1_input_output.rb1_input_output.rb
+ 2795  git add 1_input_output.rb
+ 2796  git add 2_input_output_control.rb
+ 2797  git commit -m "update2"
+ 2798  cd ..
+ 2799  git push -u origin master
+ 2800  git push origina master
+ 2801  git push origin master
+ 2802  git pull origin master
+ 2803  cd session2
+ 2804  cd 3-challenge
+ 2805  git -v
+ 2806  git status
+ 2807  git commit -a
+ 2808  git status
+ 2809  git remote -v
+ 2810  ls -la
+ 2811  cd  Projects
+ 2812  ls -la
+ 2813  cd 
+ 2814  cd  Projects
+ 2815  cd ruby-kickstart
+ 2816  git remote -v
+ 2817  git add 6_array.rb
+ 2818  git commit -m "update6"
+ 2819  git push -u origin master
+ 2820  git pull origin master
+ 2821  git status
+ 2822  git add
+ 2823  git commit -a
+ 2824  git add 7_array.rb
+ 2825  git commit -m "update7"
+ 2826  git status
+ 2827  rm 100.rb
+ 2828  ls -la
+ 2829  git status
+ 2830  git add 13_classes_iterating_sorting.rb
+ 2831  git commit -m "update13"
+ 2832  git status
+ 2833  cd ..
+ 2834  git push -u origin master
+ 2835  git pull origin master
+ 2836  ls -la
+ 2837  cd session2
+ 2838  ls -la
+ 2839  cd 3-challenge
+ 2840  ls -la
+ 2841  git push -u origin master
+ 2842  git pull origin master
+ 2843  git remote -v
+ 2844  git init
+ 2845  ls -la
+ 2846  git remote -v
+ 2847  ls -la
+ 2848  git add 6_array.rb
+ 2849  git commit -m "update6"
+ 2850  push origin master
+ 2851  git push origin master
+ 2852  git add 6_array.rb
+ 2853  git commit -m "update6"
+ 2854  git status
+ 2855  git log
+ 2856  git add 7_array.rb
+ 2857  git commit -m "update7"
+ 2858  git add 9_input_output_logic_string.rb
+ 2859  git commit -m "update9"
+ 2860  git add 10_classes.rb
+ 2861  git commit -m "update10"
+ 2862  cd ..
+ 2863  ls -la
+ 2864  cd ruby-kickstart
+ 2865  git remote -v
+ 2866  git push -u origin master
+ 2867  git pull origin master
+ 2868  git push
+ 2869  git remote -v
+ 2870  irb
+ 2871  irb 
+ 2872  ls -la
+ 2873  cd code
+ 2874  touch 001.rb
+ 2875  touch 002.rb
+ 2876  ruby 002.rb
+ 2877  cd code
+ 2878  touch 03.rb
+ 2879  ruby 03.rb
+ 2880  ls -la
+ 2881  rmdir Bl
+ 2882  mkdir Bl
+ 2883  ls -la
+ 2884  cd .. Bl
+ 2885  cd Bl
+ 2886  ls -la
+ 2887  git init
+ 2888  git clone git@github.com:TJQKAs/myblog.git
+ 2889  ls -la
+ 2890  git clone git@github.com:TJQKAs/myblog.git
+ 2891  ls -la
+ 2892  cd myblog
+ 2893  ls -la
+ 2894  gem install jekyll
+ 2895  ls -la
+ 2896  jekyll serve
+ 2897  jekyll new myblog
+ 2898  cd myblog
+ 2899  /myblog $ jekyll serve
+ 2900  myblog jekyll serve
+ 2901  jekyll serve
+ 2902  ls -la
+ 2903  gem install jekyll --pre
+ 2904  cd myblog
+ 2905  ls -la
+ 2906  cat about.md
+ 2907  jekyll docs
+ 2908  ls -la
+ 2909  ls- la
+ 2910  ls la
+ 2911  ls -la
+ 2912  cd Projects
+ 2913  ls -la
+ 2914  cd ruby-kickstart
+ 2915  ls -la
+ 2916  cd ..
+ 2917  cd ruby-kickstart
+ 2918  git init
+ 2919  git remote -v
+ 2920  cd  session2
+ 2921  ls -la
+ 2922  cd 3-challenge
+ 2923  git add -A
+ 2924  git commit -A "update"
+ 2925  git commit -a "all update"
+ 2926  git commit --all
+ 2927  git push origin master
+ 2928  cd ..
+ 2929  git push origin master
+ 2930  git pull origin master
+ 2931  git commit --all
+ 2932  git push origin master
+ 2933  git push -u origin master'\n\n
+ 2934  git remote -v
+ 2935  git push -u origin master
+ 2936  git init
+ 2937  git remote -v
+ 2938  git add -
+ 2939  git add -A
+ 2940  git remote -v
+ 2941  git pull origin master
+ 2942  git push -u origin master
+ 2943  git push --help
+ 2944  git commit -A
+ 2945  git add -A
+ 2946  install bundle
+ 2947  git add --all
+ 2948  git pull origin master
+ 2949  cd Projects
+ 2950  ls -la
+ 2951  cd ruby-kickstart
+ 2952  ls -la
+ 2953  cd session2
+ 2954  la -la
+ 2955  cd 3-challenge
+ 2956  ls -la
+ 2957  git add -A
+ 2958  git commit --all
+ 2959  git remote -v
+ 2960  cd ..
+ 2961  git remote -v
+ 2962  git push -u origin master
+ 2963  git pull 
+ 2964  checkout -b
+ 2965  git fetch origin
+ 2966  git reset --hard origin/master
+ 2967  git pull
+ 2968  cd session2
+ 2969  ls -la
+ 2970  cd 3-challenge
+ 2971  ls -la
+ 2972  git add -A
+ 2973  git commit -all
+ 2974  git commit --all
+ 2975  git status
+ 2976  git add -A
+ 2977  git commit --all
+ 2978  git log
+ 2979  cd ..
+ 2980  git status
+ 2981  git add -A
+ 2982  git commit --all
+ 2983  git status
+ 2984  git add
+ 2985  git add -A
+ 2986  git push -u origin master
+ 2987  ls -la
+ 2988  pwd
+ 2989  cd Projects
+ 2990  ls -la
+ 2991  mkdir week_1
+ 2992  ls -la
+ 2993  cd week_1
+ 2994  mkdir boris_bikes
+ 2995  touch README.md
+ 2996  cd week_1
+ 2997  ls -la
+ 2998  cd boris_bikes
+ 2999  touch README.md
+ 3000  ls -la
+ 3001  git init
+ 3002  ls -la
+ 3003  cat README.md >
+ 3004  cat > README.md
+ 3005  cat README.md
+ 3006  git add README.md
+ 3007  git commit -m "add README.md file"
+ 3008  git remote -v
+ 3009  git remote add origin 
+ 3010  git remote add origin git@github.com:TJQKAs/boris-bikes.git
+ 3011  git remote -v
+ 3012  git status
+ 3013  git add README.md
+ 3014  git commit -m "update"
+ 3015  ls -la
+ 3016  git add README.md
+ 3017  git status
+ 3018  git add README.md
+ 3019  git status
+ 3020  git add README.md
+ 3021  cat > README.md
+ 3022  git status
+ 3023  git checkout README.md
+ 3024  git status
+ 3025  git add README.md
+ 3026  git status
+ 3027  git add README.md
+ 3028  git status
+ 3029  git add README.md
+ 3030  git status
+ 3031  git commit -m "update"
+ 3032  git remote -v
+ 3033  git push -u origin master
+ 3034  irb 
+ 3035  touch docking_station.rb
+ 3036  irb
+ 3037  pwd
+ 3038  cd Projects
+ 3039  cd week_1
+ 3040  cd boris_bikes
+ 3041  ls -la
+ 3042  irb
+ 3043  rspec --init
+ 3044  ls
+ 3045  rspec
+ 3046  cat .rspec
+ 3047  cat spec/spec_helper.rb
+ 3048  ls -la
+ 3049  cd spec
+ 3050  cd ..
+ 3051  ls -la
+ 3052  touch spec/docking_station_spec.rb
+ 3053  bundle exec rspec
+ 3054  install bundle
+ 3055  bundle exec rspec
+ 3056  rspec
+ 3057  mkdir lib
+ 3058  ls -la
+ 3059  cd lib
+ 3060  docking_station.rb
+ 3061  touch docking_station.rb
+ 3062  rspec
+ 3063  cd ..
+ 3064  rspec
+ 3065  ls -la
+ 3066  rspec
+ 3067  irb
+ 3068  require ./docking_station.rb
+ 3069  irb
+ 3070  ls -la
+ 3071  cd Projects
+ 3072  ls -la
+ 3073  cd week_1
+ 3074  ls -la
+ 3075  cd boris_bikes
+ 3076  ls -la
+ 3077  irb
+ 3078  irb 
+ 3079  cd Projects
+ 3080  ls -la
+ 3081  cd week_1
+ 3082  ls -la
+ 3083  cd boris_bikes
+ 3084  ls -la
+ 3085  irb
+ 3086  pwd
+ 3087  cd Projects
+ 3088  ls -la
+ 3089  cd week_1
+ 3090  ls -la
+ 3091  cd boris_bikes
+ 3092  irb
+ 3093  rspec
+ 3094  touch Actions.txt
+ 3095  Actions.txt > history 
